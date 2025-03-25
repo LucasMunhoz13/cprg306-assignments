@@ -1,8 +1,8 @@
 export default function Item({ name, quantity, category }) {
-    return (
-      <li className="border-2 border-black bg-sky-600 p-2 m-1 max-w-md">
-        <h2 className="font-bold text-lg">{name}</h2>
-        <p className="ml-1">Buy {quantity} in {category}</p>
-      </li>
-    );
-  }
+  return (
+    <li className="bg-gray-800 p-4 rounded shadow-md">
+      <h3 className="font-bold text-lg">{name}</h3>
+      <p className="text-gray-400">Buy {quantity} in {category}</p>
+    </li>
+  );
+}

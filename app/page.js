@@ -22,6 +22,9 @@ export default function Page () {
       <p className="text-lg hover:text-green-500 pl-32">
         <Link href="week-7"> Week 7 Assignment</Link>
       </p>
+      <p className="text-lg hover:text-green-500 pl-32">
+        <Link href="week-8"> Week 8 Assignment</Link>
+      </p>
     </div>
   );
 }

@@ -21,8 +21,8 @@ export default function NewItem() {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center min-h-screen bg-gray-100">
-            <h1 className="text-4xl font-bold mb-7">Add New Item</h1>
+        <div className="flex flex-col justify-center items-center  bg-gray-100">
+            <h1 className="text-3xl font-bold text-gray-700">Add New Item</h1>
             <form onSubmit={handleSubmit} className="p-4 bg-white rounded shadow-md max-w-sm w-full">
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
